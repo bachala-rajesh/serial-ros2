@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 project(serial)
 
 find_package(ament_cmake REQUIRED)
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 ament_export_include_directories(include)
 ament_export_libraries(${PROJECT_NAME})

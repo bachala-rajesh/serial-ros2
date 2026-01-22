@@ -8,7 +8,7 @@
  *    Serial.begin(<insert your baudrate here>);
  *  }
  *
- *  void loop() {
+ *  void loop() { 
  *    if (Serial.available()) {
  *      Serial.write(Serial.read());
  *    }
